@@ -59,7 +59,7 @@
   </div>
 </div>
 <div class="works-btn">
-<a href="#" style="text-decoration: none; color: #fff;">View Our Works</a>
+<a href="gallery.php" style="text-decoration: none; color: #fff;">View Our Works</a>
 </div>
 </div>
 
