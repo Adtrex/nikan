@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+body{
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Arvo', serif;font-family: 'Pinyon Script', cursive;*/
+   
+}
+.home-page-1{
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 700px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pic3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#464646;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+
+    
+
+}
+.about-page-1{
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 500px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pic1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#464646;
+    color: #fff;
+
+}
+.works-btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    border: solid 1px #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.works-btn:hover{
+     background-color: grey;
+     color: #fff;
+     border: 0px;
+}
+
+    .aboutpic{
+    max-width: 100%;
+    
+    margin-right: 0px;
+}
+.box-about{
+  text-align: left;
+
+}
+.box-about p{
+  font-size: 20px;
+   padding-left: 30px;
+  padding-right: 30px;
+}
+.box-about h1{
+  text-align: left;
+   padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.shoot-slide{
+    margin-top: 200px;
+}
+.about-header{
+    margin-top: 120px;
+}
+
+.home-page-2{
+	margin-top: 5%;
+	 background-color: ;
+       font-family: 'Cormorant Garamond', serif;
+     
+
+
+    }
+
+    .home-page-3{
+    margin-top: 9%;
+     background-color: ;
+         font-family: 'Cormorant Garamond', serif;
+
+
+    }
+     .home-page-3 p{
+    color: #fff;
+    font-size:20px;
+    }
+    .home-page-3 button{
+    color: #fff;
+    font-size:20px;
+    }
+
+
+
+
+.portfolio-text{
+	align-self: center;
+}
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+footer{
+ background-color: grey;
+ padding-top: 20px;
+ padding-bottom: 0px;
+color: #fff;
+font-family: 'Cormorant Garamond', serif;
+}
+
+footer .row{
+  margin-bottom: 30px;
+}
+.foot-head{
+  font-size: 30px;
+}
+.foot-text{
+  font-size: 20px;
+}
+
+
+
+
+
+  
+
+@media only screen and (max-width: 600px){
+   .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.home-about-us{
+  text-align: center;
+}
+.nav-logo{
+  margin-left: -70px;
+}
+.aboutpic{
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.nav-big{
+    display: none;
+    font-size: 20px;
+
+}
+.btn-sidenav{
+        float: left;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    nav{
+    
+}
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+.box-about hr{
+    background-color:  rgb(244,139,30);
+    width: 50%;
+    margin-top: 0px;
+    
+}
+.home-portfolio hr{
+    background-color:  rgb(244,139,30);
+    width: 50%;
+    margin-top: 0px;
+    
+}
+
+
+}
+.contain{
+    width: 90%;
+    align-items: center;
+}
+
+.port{
+    max-width: 400px;
+    max-height: 380px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+
+.port:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+.port1{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+  }
+.port1 img{
+    transition: 0.2s ease-in-out;
+
+}
+.port1:hover img{
+    transform: scale(1.03);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+}
+
+.cropped1 img{
+    width: 300px; /* width of container */
+    height: 350px; /* height of container */
+    object-fit: cover;
+}
+
+.img-text{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(255 184 111);
+    color: black;
+}
+
+@media only screen and (min-width: 600px){
+	.sidenav{
+        display: none;
+    }
+    .btn-sidenav{
+        display: none;
+    }
+
+
+.home-about-us{
+  text-align: justify;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+
+.box-about hr{
+    background-color:  rgb(244,139,30);
+    width: 40%;
+    margin-top: 0px;
+}
+
+.home-portfolio hr{
+    background-color:  rgb(244,139,30);
+    width: 20%;
+    margin-top: 0px;
+    
+}
+.nav-big{
+    font-size: 20px;
+
+}
+}
+
+.sidenav-active{
+    border-bottom: solid 2px #fff;
+    width: 100px;
+    margin-left: 35px;
+}
+
+
+.home-gall{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    background-color: rgb(255 184 111);
+    color: #fff;
+    border: 3px solid rgb(255 184 111);
+}
+.home-gall:hover{
+    background-color: #fff;
+    border: 3px solid rgb(255 184 111);
+    color: black;
+    
+}
