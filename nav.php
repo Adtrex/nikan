@@ -10,7 +10,7 @@
     <a href="gallery.php"><li>Gallery</li></a>
     <a href="contact.php"><li>Contact</li></a>
     </span>
-    <li class="btn-sidenav"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span></li>
+    <li class="btn-sidenav"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i>  </span></li>
   </ul>
  
 </nav>
